@@ -1,16 +1,16 @@
 @echo off
 echo Cleaning Keil project intermediate files...
 
-:: 缂栬瘧杈撳嚭鏂囦欢
+:: 编译输出文件
 del /s /q *.o *.d *.crf *.axf *.elf *.bin *.hex *.lib *.lnp *.map *.lst *.sct *.tra *.dep
 
-:: IDE 涓存椂鏂囦欢
+:: IDE 临时文件
 del /s /q *.bak *.tmp *.__i *.iex
 
-:: 鏃ュ織鏂囦欢
+:: 日志文件
 del /s /q JLinkLog.txt JLinkSettings.ini
 
-:: HTML 鎶ュ憡锛堝彲閫夛級
+:: HTML 报告（可选）
 del /s /q *.htm
 
 echo Done.
