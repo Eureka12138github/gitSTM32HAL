@@ -1,0 +1,32 @@
+# IDE 相关文件
+*.o
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.sct
+*.dep
+*.d
+*.elf
+*.out
+*.obj
+
+
+
+# 编译中间文件
+Core/Inc/*.d
+Core/Src/*.o
+Drivers/
+MDK-ARM/
+
+# 其他临时文件
+*.swp
+*.tmp
+*.bak
+*.log
+
+# 特殊目录
+Debug/
+Release/
+Obj/
