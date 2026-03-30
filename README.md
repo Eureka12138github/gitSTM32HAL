@@ -10,6 +10,13 @@
 
 ---
 
+## 📝 Notes
+
+- **Example 3-5 Adaptation**: The original tutorial uses a photoresistor module to control a buzzer. However, due to hardware kit variations, this example has been adapted to use an infrared sensor instead. The functional logic and learning objectives remain identical.
+- **Wiring Diagrams**: Complete wiring diagrams for all examples (both completed and upcoming) are available in the `00-Common/1-1 wiring-diagrams/` folder.
+
+---
+
 ## 📦 Project Structure
 
 ```text
@@ -141,52 +148,6 @@ pio/
 
 ---
 
-## Troubleshooting
-
-### Cannot upload program
-
-1. Check BOOT0 jumper position (should be 0 for run mode)
-2. Ensure proper connection of SWDIO/SWCLK pins
-3. Try holding reset button while uploading
-4. Verify DAP-Link drivers are installed
-
-### No serial output
-
-1. Confirm baud rate matches (default: 115200)
-2. Check TX/RX connections
-3. Press reset button after opening serial monitor
-
-### Compilation errors
-
-1. Ensure all files are saved
-2. Clean build: `PlatformIO → Clean`
-3. Rebuild: `PlatformIO → Build`
-
----
-
-## 🔧 Git Workflow
-
-### 📄 .gitignore Configuration
-
-The following are gitignored:
-
-- PlatformIO build artifacts (`.pio/build/`)
-- User config files (`.vscode/`, `.lingma/`)
-- Temporary files and logs
-
-### ✅ Recommended Workflow
-
-```bash
-git clone https://github.com/Eureka12138github/gitSTM32HAL.git
-cd gitSTM32HAL
-git status
-git add .
-git commit -m "Your changes"
-git push
-```
-
----
-
 ## 📚 Resources
 
 - [Jiang Xie Ke Ji STM32 Tutorial (Bilibili)](https://space.bilibili.com/27495688)
@@ -194,13 +155,5 @@ git push
 
 ---
 
-## 📝 Notes
-
-- **Example 3-5 Adaptation**: The original tutorial uses a photoresistor module to control a buzzer. However, due to hardware kit variations, this example has been adapted to use an infrared sensor instead. The functional logic and learning objectives remain identical.
-- **Wiring Diagrams**: Complete wiring diagrams for all examples (both completed and upcoming) are available in the `00-Common/1-1 wiring-diagrams/` folder.
-
----
-
 **Happy Coding & Learning!** 🚀
 
----
